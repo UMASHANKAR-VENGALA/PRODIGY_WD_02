@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+body{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* backdrop-filter: blur(5px); */
+}
+#mainscreen{
+    padding: 30px;
+    box-shadow: 7px 8px 15px rgba(255, 255, 255, 0.94) ;
+    border: 6px solid rgba(255, 255, 255, 0.839);
+    border-radius: 50%;
+    backdrop-filter: blur(8px);
+}
+#myH1{
+    border-radius: 15px;
+    width: min-content;
+    font-size: 4.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    /* backdrop-filter: blur(5px);
+    border: 5px solid rgba(0, 0, 0, 0.94);
+    box-shadow: 7px 8px 15px rgb(0, 0, 0) inset; */
+    padding: 10px 25px;
+    /* color: rgb(241, 250, 0); */
+  background: -webkit-linear-gradient( rgb(255, 255, 255), rgb(174, 173, 173));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+}
+#display{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    /* color: hsl(0, 0%, 100%);*/
+    text-shadow: 2px 2px 2px hsla(0, 0%, 90%, 0.876); 
+    background: -webkit-linear-gradient(rgb(232, 255, 55), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    margin-bottom: 25px;
+}
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+#startBtn{
+    background-color: hsl(115, 100%, 40%);
+}
+#startBtn:hover{
+    background-color: hsl(115, 100%, 30%);
+}
+
+#resetBtn{
+    background-color: rgb(245, 61, 61);
+}
+#resetBtn:hover{
+    background-color: rgba(242, 13, 13, 0.699);
+}
