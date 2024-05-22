@@ -28,6 +28,7 @@ function reset(){
     elapsedTime = 0;
     isRunning = false;    
     display.textContent = "00:00:00:00";
+    btnName.textContent = "Start";
 }
 
 function update(){
